@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { DriverAuthController } from './auth/driver.controller';
-import { DriverAuthService } from './auth/driver.service';
+import { DriverAuthController } from './auth/auth.controller';
+import { DriverAuthService } from './auth/auth.service';
 
 @Module({
   controllers: [DriverAuthController],
